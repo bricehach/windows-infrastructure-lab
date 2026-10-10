@@ -95,7 +95,16 @@ Sur le système installé :
 dism /online /get-intl
 ~~~
 
-Sur un ISO, vérifier également la langue déclarée et l’image/édition contenue. Ne pas deviner à partir du seul nom du fichier. Si le média provient d’un outil tiers, documenter l’outil et sa version, vérifier la provenance et ne pas mélanger ses modifications avec celles de Windows Setup dans un diagnostic initial.
+Sur un ISO, vérifier également la langue déclarée et l’image/édition contenue. Pour afficher les images présentes, repérer le lecteur monté et le fichier d’installation :
+
+~~~cmd
+dir E:\sources\install.*
+dism /Get-ImageInfo /ImageFile:E:\sources\install.wim
+~~~
+
+Si le média contient install.esd, remplacer le nom du fichier par install.esd. Adapter E: à la lettre réelle. DISM affiche les index et les éditions du média ; comparer ces informations au plan d’installation. Ne pas deviner à partir du seul nom du fichier.
+
+Pour une mise à niveau sur place, l’architecture, l’édition et la langue doivent être compatibles avec le Windows installé. Certaines options d’installation de Windows 11 22H2 et ultérieur exigent la même langue d’interface par défaut que la cible. Si le média provient d’un outil tiers, documenter l’outil et sa version, vérifier la provenance et ne pas mélanger ses modifications avec celles de Windows Setup dans un diagnostic initial.
 
 **Rufus** peut servir à créer un média USB à partir d’un ISO ; c’est un outil tiers, distinct de Windows Setup. Choisir explicitement le schéma de partition et la cible firmware correspondant au poste. Une clé USB bootable ne rend pas éligible un PC qui ne respecte pas les exigences de Windows 11. Vérifier la documentation et les options de la version utilisée.
 
@@ -259,6 +268,8 @@ Ne pas publier de clé BitLocker, numéro de série, nom d’utilisateur, dump o
 - [Méthodes d’installation de Windows 11](https://support.microsoft.com/fr-fr/windows/deployment/install-upgrade/ways-to-install-windows-11)
 - [Installation de Windows 11 sur un appareil non conforme](https://support.microsoft.com/fr-fr/windows/experience/compatibility/windows-11-on-devices-that-don-t-meet-minimum-system-requirements)
 - [Chemins de mise à niveau Windows](https://learn.microsoft.com/fr-fr/windows/deployment/upgrade/windows-upgrade-paths)
+- [Options de ligne de commande de Windows Setup](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-setup-command-line-options?view=windows-10)
+- [Informations sur les images avec DISM](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14?view=windows-11)
 - [SetupDiag](https://learn.microsoft.com/fr-fr/windows/deployment/upgrade/setupdiag)
 - [Journaux de mise à niveau Windows](https://learn.microsoft.com/en-us/windows/deployment/upgrade/log-files)
 - [Fin du support de Windows 10](https://learn.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro)
