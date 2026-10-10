@@ -8,22 +8,24 @@ Ce document organise la transformation progressive des sujets déjà travaillés
 2. Compte administrateur local et post-installation
 3. Confidentialité, télémétrie et transparence des données
 4. Winget et maintenance applicative
-5. Réparation du démarrage Windows
-6. BSOD / Bug Check / dumps
-7. Pilotes et BIOS
-8. Journaux Windows et Event ID de stabilité
-9. Microsoft Defender, GPO et hardening
-10. Troubleshooting transversal
+5. Pilotes et BIOS
+6. Journaux Windows et Event ID de stabilité
+7. Microsoft Defender, GPO et hardening
+8. Troubleshooting transversal
 
 ## Déjà publié
 
-- [Audit et maintenance Windows 10/11 avec CMD](audit-cmd/) — guide pédagogique en Markdown et Word, publié le 10 octobre 2026.
+- [Audit et maintenance Windows 10/11 avec CMD](audit-cmd/) — guide pédagogique en Markdown et Word.
+- [Réparation avancée du démarrage Windows 10/11](boot-repair/) — guide pédagogique en Markdown.
+- [Analyse avancée des BSOD Windows 10/11](bsod/) — guide pédagogique en Markdown.
+
+Les exercices, TP et évaluations pourront être ajoutés dans des ressources distinctes.
 
 ## Règle documentaire
 
 Chaque ressource doit idéalement suivre cette logique :
 
-```text
+~~~text
 Contexte
    ↓
 Objectif
@@ -43,7 +45,7 @@ Retour arrière
 Troubleshooting
    ↓
 À retenir
-```
+~~~
 
 ## Statuts
 

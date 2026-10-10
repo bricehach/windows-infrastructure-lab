@@ -26,7 +26,7 @@ Les sujets couverts concernent principalement **Windows 10 et Windows 11 Pro**, 
 
 ## Méthode documentaire
 
-```text
+~~~text
 Contexte
    ↓
 Objectif
@@ -46,7 +46,7 @@ Retour arrière
 Troubleshooting
    ↓
 Ce qu'il faut retenir
-```
+~~~
 
 Les contenus seront classés selon quatre formats :
 
@@ -63,16 +63,16 @@ Les contenus seront classés selon quatre formats :
 
 | Domaine | Contenu |
 |---|---|
-| [`installation/`](installation/) | Installation propre, compte local, post-installation |
-| [`privacy-telemetry/`](privacy-telemetry/) | Confidentialité, télémétrie, collecte et transparence |
-| [`winget/`](winget/) | Maintenance et mise à jour des applications |
-| [`drivers-bios/`](drivers-bios/) | Pilotes, BIOS, compatibilité et diagnostic |
-| [`audit-cmd/`](audit-cmd/) | Audit, diagnostic et réparations Windows avec l’invite de commandes |
-| [`boot-repair/`](boot-repair/) | Réparation du démarrage Windows |
-| [`bsod/`](bsod/) | BSOD, Bug Check, dump et diagnostic |
-| [`event-logs/`](event-logs/) | Journaux Windows et Event ID utiles |
-| [`defender-hardening/`](defender-hardening/) | Microsoft Defender, GPO et hardening |
-| [`troubleshooting/`](troubleshooting/) | Cas de dépannage documentés |
+| [installation/](installation/) | Installation propre, compte local, post-installation |
+| [privacy-telemetry/](privacy-telemetry/) | Confidentialité, télémétrie, collecte et transparence |
+| [winget/](winget/) | Maintenance et mise à jour des applications |
+| [drivers-bios/](drivers-bios/) | Pilotes, BIOS, compatibilité et diagnostic |
+| [audit-cmd/](audit-cmd/) | Audit, diagnostic et réparations Windows avec l’invite de commandes |
+| [boot-repair/](boot-repair/) | [Guide avancé de réparation du démarrage](boot-repair/guide-avance-demarrage-windows-10-11.md) |
+| [bsod/](bsod/) | [Guide avancé d’analyse des BSOD](bsod/guide-analyse-bsod-windows-10-11.md) |
+| [event-logs/](event-logs/) | Journaux Windows et Event ID utiles |
+| [defender-hardening/](defender-hardening/) | Microsoft Defender, GPO et hardening |
+| [troubleshooting/](troubleshooting/) | Cas de dépannage documentés |
 
 ---
 
@@ -112,6 +112,8 @@ Repository actif et en construction progressive.
 ### Publié
 
 - [Audit et maintenance Windows 10/11 avec CMD](audit-cmd/) — cours pédagogique en Markdown et Word.
+- [Réparation avancée du démarrage Windows 10/11](boot-repair/) — guide Markdown.
+- [Analyse avancée des BSOD Windows 10/11](bsod/) — guide Markdown.
 
 ### À publier ou structurer
 
@@ -119,8 +121,6 @@ Repository actif et en construction progressive.
 - compte administrateur local ;
 - confidentialité et télémétrie ;
 - Winget ;
-- réparation du démarrage ;
-- BSOD ;
 - pilotes et BIOS ;
 - journaux Windows et Event ID ;
 - Microsoft Defender et hardening ;

@@ -1,28 +1,21 @@
 # BSOD & Bug Check
 
-Cette section documentera les écrans bleus Windows, les codes Bug Check et les méthodes d'analyse associées.
+Guide avancé pour comprendre, collecter et analyser les écrans bleus sous **Windows 10 et Windows 11**.
 
-## Sujets prévus
+## Guide
 
-- Comprendre un BSOD
-- Différence entre symptôme, code et cause réelle
-- Codes Bug Check fréquents
-- Fichiers dump
-- Minidump / MEMORY.DMP
-- WinDbg
-- Event Viewer
-- Reliability Monitor
-- Drivers impliqués
-- Mémoire, stockage, alimentation et matériel
-- Corrélation avec les journaux Windows
-- Méthodologie de diagnostic
-- Pistes de réparation
-- Vérification après correction
+- [Analyser les BSOD de Windows 10 et Windows 11](guide-analyse-bsod-windows-10-11.md)
 
-## Principe
+## Contenu
 
-Un code Bug Check oriente l'investigation mais ne constitue pas, à lui seul, une preuve de la cause racine.
+- Collecte du code STOP, des paramètres, dumps et journaux
+- Analyse avec WinDbg et symboles
+- Lecture de la pile et des modules
+- Tableau de Bug Checks fréquents
+- Hypothèses pilotes, logiciels et matériel
+- Usage contrôlé de Driver Verifier
+- Réparations proportionnées et rapport d’intervention
 
-## Statut
+Un Bug Check ou un module affiché constitue un indice, pas à lui seul une preuve de cause racine. Les dumps mémoire peuvent contenir des données sensibles. Les TP, scénarios et évaluations sont séparés.
 
-Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.
+[Retour à l’index du repository](../README.md)

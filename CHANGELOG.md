@@ -29,13 +29,17 @@ Le repository passe en **actif** dans le cadre de **Projet 00 — Portfolio prof
 - Documentation sur compte local et post-installation
 - Guide confidentialité / télémétrie
 
-
 ## 2026-10-10
 
 ### Added
 
-- Section `audit-cmd/` consacrée à l’audit, au diagnostic et à la maintenance Windows depuis `cmd.exe`.
+- Section audit-cmd/ consacrée à l’audit, au diagnostic et à la maintenance Windows depuis cmd.exe.
 - Guide pédagogique Windows 10/11 en Markdown et document Word.
-- Mise à jour de l’index du repository et de la roadmap.
-- Révision des statuts de publication dans les README des sections en préparation.
-- Mise en page Word ajustée pour intégrer la note de publication sans page finale isolée.
+- Guides avancés Markdown pour la réparation du démarrage et l’analyse des BSOD Windows 10/11.
+- Références Microsoft, précautions BitLocker, distinction UEFI/GPT et BIOS/MBR, et consignes de vérification.
+- Mise à jour de l’index du repository, des README de section et de la roadmap.
+
+### Changed
+
+- Statut de publication mis à jour pour refléter les ressources disponibles.
+- Mise en page Word de l’audit-CMD ajustée pour intégrer la note de publication sans page finale isolée.

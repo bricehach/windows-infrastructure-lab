@@ -1,29 +1,24 @@
 # Réparation du démarrage Windows
 
-Cette section regroupera les méthodes de diagnostic et de réparation du démarrage Windows.
+Guide avancé pour le diagnostic et la réparation raisonnée du démarrage sous **Windows 10 et Windows 11**.
 
-## Sujets prévus
+## Guide
 
-- Différence BIOS / UEFI
-- MBR / GPT
-- BCD
-- Windows Recovery Environment
-- `bootrec`
-- `bcdboot`
-- `bcdedit`
-- `diskpart`
-- `sfc`
-- `DISM`
-- Réparation du chargeur de démarrage
-- Cas de partitions EFI
-- Arbre décisionnel de diagnostic
-- Vérification après réparation
-- Sauvegarde et retour arrière lorsque possible
+- [Réparer le démarrage de Windows 10 et Windows 11](guide-avance-demarrage-windows-10-11.md)
+
+## Contenu
+
+- Chaînes UEFI/GPT et BIOS/MBR
+- Triage, WinRE, lettres de volumes et BitLocker
+- Inventaire des disques/partitions avec DiskPart
+- Réparation automatisée, BCDBoot et portée de BOOTREC
+- Vérification BCD, SFC, DISM et CHKDSK
+- Codes d’erreur fréquents, validation et documentation
+
+Les exemples doivent être adaptés à la machine observée. Le guide distingue les opérations de lecture des commandes qui écrivent sur le disque. Les TP, scénarios et évaluations sont séparés.
 
 ## Principe
 
-Ne jamais appliquer une commande de réparation sans comprendre l'état du disque, le mode de démarrage et la structure des partitions.
+Identifier le mode de démarrage, le bon disque et les bons volumes avant toute réparation. Préserver les données et la clé BitLocker. Vérifier chaque résultat.
 
-## Statut
-
-Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.
+[Retour à l’index du repository](../README.md)
