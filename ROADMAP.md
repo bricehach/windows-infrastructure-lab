@@ -14,6 +14,7 @@ Ce document organise la transformation progressive des sujets déjà travaillés
 8. Journaux Windows et Event ID de stabilité
 9. Microsoft Defender, GPO et hardening
 10. Troubleshooting transversal
+11. Audit et maintenance Windows avec l’invite de commandes (CMD)
 
 ## Règle documentaire
 
@@ -57,3 +58,8 @@ Construire une base Windows qui puisse servir à la fois de :
 - guide de dépannage ;
 - documentation de sécurité ;
 - preuve technique dans le portfolio professionnel.
+
+
+## Contenu publié le 10 octobre 2026
+
+- Audit et maintenance Windows 10/11 avec CMD : guide pédagogique, commandes commentées et réparations contrôlées. Voir [`audit-cmd/`](audit-cmd/).

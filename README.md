@@ -67,6 +67,7 @@ Les contenus seront classés selon quatre formats :
 | [`privacy-telemetry/`](privacy-telemetry/) | Confidentialité, télémétrie, collecte et transparence |
 | [`winget/`](winget/) | Maintenance et mise à jour des applications |
 | [`drivers-bios/`](drivers-bios/) | Pilotes, BIOS, compatibilité et diagnostic |
+| [`audit-cmd/`](audit-cmd/) | Audit, diagnostic et réparations Windows avec l’invite de commandes |
 | [`boot-repair/`](boot-repair/) | Réparation du démarrage Windows |
 | [`bsod/`](bsod/) | BSOD, Bug Check, dump et diagnostic |
 | [`event-logs/`](event-logs/) | Journaux Windows et Event ID utiles |
@@ -119,4 +120,5 @@ Les premiers contenus prévus concernent :
 - les pilotes et le BIOS ;
 - les Event ID de stabilité ;
 - Microsoft Defender et le hardening ;
-- le troubleshooting transversal.
+- le troubleshooting transversal ;
+- l’audit et la maintenance avec l’invite de commandes (CMD).

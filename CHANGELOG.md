@@ -28,3 +28,12 @@ Le repository passe en **actif** dans le cadre de **Projet 00 — Portfolio prof
 - Premier guide complet : installation propre de Windows 11 Pro
 - Documentation sur compte local et post-installation
 - Guide confidentialité / télémétrie
+
+
+## 2026-10-10
+
+### Added
+
+- Section `audit-cmd/` consacrée à l’audit, au diagnostic et à la maintenance Windows depuis `cmd.exe`.
+- Guide pédagogique Windows 10/11 en Markdown et document Word.
+- Mise à jour de l’index du repository et de la roadmap.
