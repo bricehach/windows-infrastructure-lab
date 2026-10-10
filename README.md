@@ -63,7 +63,7 @@ Les contenus seront classés selon quatre formats :
 
 | Domaine | Contenu |
 |---|---|
-| [installation/](installation/) | Installation propre, compte local, post-installation |
+| [installation/](installation/) | [Installation, mise à niveau et dépannage Windows 10/11](installation/guide-installation-mise-a-niveau-windows-10-11.md) |
 | [privacy-telemetry/](privacy-telemetry/) | Confidentialité, télémétrie, collecte et transparence |
 | [winget/](winget/) | Maintenance et mise à jour des applications |
 | [drivers-bios/](drivers-bios/) | Pilotes, BIOS, compatibilité et diagnostic |
@@ -112,15 +112,15 @@ Repository actif et en construction progressive.
 ### Publié
 
 - [Audit et maintenance Windows 10/11 avec CMD](audit-cmd/) — cours pédagogique en Markdown et Word.
+- [Installation, mise à niveau et dépannage Windows 10/11](installation/) — notes de cours en Markdown.
 - [Réparation avancée du démarrage Windows 10/11](boot-repair/) — guide Markdown.
 - [Analyse avancée des BSOD Windows 10/11](bsod/) — guide Markdown.
 
 ### À publier ou structurer
 
-- Installation de Windows 11 Pro et vérifications post-installation ;
-- compte administrateur local ;
+- Compte administrateur local et vérifications post-installation ;
 - confidentialité et télémétrie ;
-- Winget ;
+- Winget et maintenance applicative ;
 - pilotes et BIOS ;
 - journaux Windows et Event ID ;
 - Microsoft Defender et hardening ;

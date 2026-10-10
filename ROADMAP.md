@@ -4,22 +4,22 @@ Ce document organise la transformation progressive des sujets déjà travaillés
 
 ## Priorités de publication
 
-1. Installation propre de Windows 11 Pro
-2. Compte administrateur local et post-installation
-3. Confidentialité, télémétrie et transparence des données
-4. Winget et maintenance applicative
-5. Pilotes et BIOS
-6. Journaux Windows et Event ID de stabilité
-7. Microsoft Defender, GPO et hardening
-8. Troubleshooting transversal
+1. Compte administrateur local et vérifications post-installation
+2. Confidentialité, télémétrie et transparence des données
+3. Winget et maintenance applicative
+4. Pilotes, BIOS et firmware
+5. Journaux Windows et Event ID de stabilité
+6. Microsoft Defender, GPO et hardening
+7. Troubleshooting transversal
 
 ## Déjà publié
 
 - [Audit et maintenance Windows 10/11 avec CMD](audit-cmd/) — guide pédagogique en Markdown et Word.
+- [Installation, mise à niveau et dépannage Windows 10/11](installation/) — notes de cours en Markdown.
 - [Réparation avancée du démarrage Windows 10/11](boot-repair/) — guide pédagogique en Markdown.
 - [Analyse avancée des BSOD Windows 10/11](bsod/) — guide pédagogique en Markdown.
 
-Les exercices, TP et évaluations pourront être ajoutés dans des ressources distinctes.
+Le guide d’installation sépare le parcours pris en charge des essais sur matériel non éligible. Les exercices, TP et évaluations restent à créer dans des ressources distinctes.
 
 ## Règle documentaire
 

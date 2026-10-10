@@ -36,7 +36,8 @@ Le repository passe en **actif** dans le cadre de **Projet 00 — Portfolio prof
 - Section audit-cmd/ consacrée à l’audit, au diagnostic et à la maintenance Windows depuis cmd.exe.
 - Guide pédagogique Windows 10/11 en Markdown et document Word.
 - Guides avancés Markdown pour la réparation du démarrage et l’analyse des BSOD Windows 10/11.
-- Références Microsoft, précautions BitLocker, distinction UEFI/GPT et BIOS/MBR, et consignes de vérification.
+- Guide pédagogique Markdown sur l’installation, la mise à niveau et le dépannage de Windows 10/11.
+- Références Microsoft, précautions BitLocker, distinction UEFI/GPT et BIOS/MBR, vérification du média, diagnostic SetupDiag et statut Windows 10.
 - Mise à jour de l’index du repository, des README de section et de la roadmap.
 
 ### Changed
