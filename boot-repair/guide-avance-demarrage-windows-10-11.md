@@ -13,7 +13,7 @@ Les TP, scénarios et évaluations sont à concevoir séparément.
 ### UEFI / GPT
 
 1. Le firmware UEFI initialise le matériel et lit une entrée de démarrage NVRAM.
-2. Windows Boot Manager démarre depuis la partition système EFI (ESP), généralement FAT32 : \\EFI\\Microsoft\\Boot\\bootmgfw.efi.
+2. Windows Boot Manager démarre depuis la partition système EFI (ESP), généralement FAT32 : \EFI\Microsoft\Boot\bootmgfw.efi.
 3. Le magasin BCD fournit les paramètres de démarrage.
 4. winload.efi charge le noyau, HAL et pilotes de démarrage.
 5. Windows initialise les services et ouvre la session.

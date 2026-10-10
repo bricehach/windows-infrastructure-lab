@@ -28,8 +28,8 @@ Consigner :
 
 Emplacements usuels :
 
-- petits dumps : %SystemRoot%\\Minidump\\ ;
-- dump mémoire : %SystemRoot%\\MEMORY.DMP.
+- petits dumps : %SystemRoot%\Minidump\ ;
+- dump mémoire : %SystemRoot%\MEMORY.DMP.
 
 Préserver une copie de travail sans modifier l’original. Un dump peut contenir des données confidentielles ou des fragments de mémoire vive. Ne pas le joindre à un ticket public ou à GitHub sans examen de confidentialité et autorisation.
 
