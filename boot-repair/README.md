@@ -26,4 +26,4 @@ Ne jamais appliquer une commande de réparation sans comprendre l'état du disqu
 
 ## Statut
 
-Matière disponible — contenu prioritaire à transformer en guide avancé.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

@@ -37,4 +37,4 @@ Retour arrière
 
 ## Statut
 
-Matière disponible — section prioritaire de la base de connaissances.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

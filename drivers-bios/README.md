@@ -17,4 +17,4 @@ Cette section regroupera les procédures de diagnostic et de maintenance liées 
 
 ## Statut
 
-Matière disponible — à structurer en guides et cas de troubleshooting.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

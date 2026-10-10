@@ -37,3 +37,5 @@ Le repository passe en **actif** dans le cadre de **Projet 00 — Portfolio prof
 - Section `audit-cmd/` consacrée à l’audit, au diagnostic et à la maintenance Windows depuis `cmd.exe`.
 - Guide pédagogique Windows 10/11 en Markdown et document Word.
 - Mise à jour de l’index du repository et de la roadmap.
+- Révision des statuts de publication dans les README des sections en préparation.
+- Mise en page Word ajustée pour intégrer la note de publication sans page finale isolée.

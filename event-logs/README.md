@@ -17,4 +17,4 @@ Cette section regroupera les ressources consacrées aux journaux Windows utiles 
 
 ## Statut
 
-Matière disponible — à transformer en fiches de référence et labs de diagnostic.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

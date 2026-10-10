@@ -25,4 +25,4 @@ Un code Bug Check oriente l'investigation mais ne constitue pas, à lui seul, un
 
 ## Statut
 
-Matière disponible — guide complet à intégrer progressivement.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

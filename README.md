@@ -109,16 +109,19 @@ L'objectif est de montrer non seulement **ce qui fonctionne**, mais aussi **comm
 
 Repository actif et en construction progressive.
 
-Les premiers contenus prévus concernent :
+### Publié
 
-- l'installation de Windows 11 Pro ;
-- le compte administrateur local ;
-- la confidentialité et la télémétrie ;
+- [Audit et maintenance Windows 10/11 avec CMD](audit-cmd/) — cours pédagogique en Markdown et Word.
+
+### À publier ou structurer
+
+- Installation de Windows 11 Pro et vérifications post-installation ;
+- compte administrateur local ;
+- confidentialité et télémétrie ;
 - Winget ;
-- la réparation du démarrage ;
-- les BSOD ;
-- les pilotes et le BIOS ;
-- les Event ID de stabilité ;
-- Microsoft Defender et le hardening ;
-- le troubleshooting transversal ;
-- l’audit et la maintenance avec l’invite de commandes (CMD).
+- réparation du démarrage ;
+- BSOD ;
+- pilotes et BIOS ;
+- journaux Windows et Event ID ;
+- Microsoft Defender et hardening ;
+- troubleshooting transversal.

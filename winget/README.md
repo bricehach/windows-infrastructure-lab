@@ -22,4 +22,4 @@ L'objectif est de documenter des procédures reproductibles et contrôlables, av
 
 ## Statut
 
-Matière disponible — à transformer progressivement en guide et fiche de référence.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

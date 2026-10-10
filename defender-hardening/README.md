@@ -23,4 +23,4 @@ Le hardening doit réduire le risque sans casser inutilement l'usage légitime d
 
 ## Statut
 
-Matière disponible — à développer progressivement en guides, références et check-lists.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.

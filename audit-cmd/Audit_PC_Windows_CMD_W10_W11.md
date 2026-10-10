@@ -651,7 +651,7 @@ Toujours vérifier la cible, l’aide locale, les privilèges et les effets avan
 
 ## 14. Sources Microsoft
 
-Les références ci-dessous sont des sources primaires. Les pages de référence peuvent être mises à jour ; vérifier la documentation de la version de Windows et l’aide locale avant une opération de maintenance.
+Les références ci-dessous sont des sources primaires. Les pages de référence peuvent être mises à jour ; vérifier la documentation de la version de Windows et l’aide locale avant une opération de maintenance. Avant toute publication de rapport ou capture, anonymiser les noms, adresses IP, secrets, numéros de série, noms Wi-Fi et chemins personnels ; ce cours ne contient aucune donnée issue d’un poste réel.
 
 - [Référence A–Z des commandes Windows](https://learn.microsoft.com/windows-server/administration/windows-commands/windows-commands) — couvre Windows 11 et Windows 10, avec aussi des commandes Server et conditionnelles.
 - [`cmd`](https://learn.microsoft.com/windows-server/administration/windows-commands/cmd) — paramètres de l’interpréteur de commandes.
@@ -664,8 +664,3 @@ Les références ci-dessous sont des sources primaires. Les pages de référence
 - [`wevtutil`](https://learn.microsoft.com/windows-server/administration/windows-commands/wevtutil) — gestion des journaux d’événements.
 - [`wmic`](https://learn.microsoft.com/windows-server/administration/windows-commands/wmic) — utilitaire WMIC déprécié.
 
----
-
-## Note de publication GitHub
-
-Avant de publier un rapport d’audit ou des captures dans un dépôt public, retirer les noms de machines et comptes, adresses IP publiques ou internes, identifiants, clés, numéros de série, noms Wi-Fi, chemins personnels et détails de l’infrastructure. Ce support de cours ne contient pas de données provenant d’un poste réel.

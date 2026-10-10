@@ -15,4 +15,4 @@ Cette section regroupera les guides consacrés à l'installation et à la prépa
 
 ## Statut
 
-Matière disponible — rédaction progressive en cours.
+Périmètre identifié — README de cadrage publié ; le guide détaillé reste à ajouter.
